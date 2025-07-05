@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="head">
+        <h1>Portfolio</h1>
+
+        <a href="#head">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="header-section">
+        <div class="header-text">
+            <p>Web Development Intern</p>
+            <h1>Hi, I am <span>Nitesh</span><br> from Pune</h1>
+        </div>
+        <img src="img.png" class="header-img">
+    </div>
+
+    <div id="about">
+        <div class="contain">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img1.png" id="two">
+                </div>
+                <div class="about-col-2">
+                    <h1 id="one">About Me</h1>
+                    <div id="introduction">
+                        <p id="intro">
+                            I am Nitesh Chavan, a passionate and motivated Frontend Web Developer 
+                            currently pursuing my 3rd year in Computer Engineering at 
+                            Pimpri Chinchwad College of Engineering, 
+                            Pune.<br>
+                            I enjoy turning ideas into interactive and responsive web interfaces. 
+                            With a strong foundation in programming and a curious mindset,<br> 
+                            I’m always eager to learn new technologies and apply them to real-world projects.<br>
+                            I believe in clean code, continuous improvement, and building meaningful digital experiences.<br> 
+                            My goal is to become a well-rounded full stack developer while solving problems that impact people.
+                        </p>
+                    </div>
+                    <br><br>
+
+                    <p id="switch">Click on the other tabs to see the projects and education.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab(0)">Skills</p>
+                        <p class="tab-links" onclick="opentab(1)">Projects</p>
+                        <p class="tab-links" onclick="opentab(2)">Education</p>
+                        <p class="tab-links" onclick="opentab(3)">Internships</p>
+                    </div>
+                    <div class="tab-content active-tab">
+                        <ul>
+                            <li><span>Web Development</span><br>Website Designing</li>
+                            <li><span>DataBases</span><br>MySQL<br>MongoDB</li>
+                            <li><span>Programing Language</span><br>Python,C,C++</li>
+                            <li><span>AI & ML</span><br>Generative AI</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <ul>
+                            <li><span>Tic Tac Toe Game</span><br>2-player game with win/draw logic</li>
+                            <li><span>Stone Paper Scissors</span><br>Basic AI vs Player logic using JS</li>
+                            <li><span>Stopwatch Application</span><br>Start, stop, reset, lap features using JavaScript</li>
+                            <li><span>Interactive Quiz</span><br>Multiple choice quiz with score counter</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <ul>
+                            <li><span>School</span><br>Rotary English School</li>
+                            <li><span>Jr. College</span><br>R.D.M.P Jr. College</li>
+                            <li><span>Higher Education</span><br>Pimpri Chinchwad College of Engineering</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <ul>
+                            <li id="Intern">Web Development Intern at Prodigy Infotech</li>
+                        </ul>
+                        <br><br>
+
+                        <p>Click on bellow link to view the offer letter</p>
+                        <br>
+                        <a href="https://doc-14-54-apps-viewer.googleusercontent.com/viewer/secure/pdf/823l7km51m277n125fbd0ljg5ibvjqls/vrklbvn4qqro8sqgd5qunjajulg4kvtc/1751691300000/gmail/11327804259033178540/ACFrOgA6FLQFzgfT799cdeKrkAk5O3Xs1X7yOtTQESKVsgoRu6yT6OF8Fm8D80hKNEyDimWxVD1bEOSTu0MGc8foVGoWWijFqeA9UvqLARDw0G1uv3GnkH9E5BbJalLdEpbsB8dbd51ThfCFd7ajvJEginWuGx0pESTkQhlwoQ==?print=true&nonce=nosqiir5ii9ci&user=11327804259033178540&hash=t7cpdv7mlkkheuggj450ann0v792jhko">Offer Letter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.PNG" id="work-img">
+                    <div class="layer">
+                        <h3>Responsive Landing Page</h3>
+                        <p>This page shows you a basic layout of your personal details <br>
+                            through various tabs like Home, About, Projects Contact.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.PNG" id="work-imag">
+                    <div class="layer">
+                        <h3>StopWatch Web Application</h3>
+                        <p>
+                            This is Interactive StopWatch Web Application contains button <br>
+                            like Start, Stop, Reset.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-3.PNG" id="work-image">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>This game consist of two modes play with AI and play with friend.<br>
+                            giving choice to user to play with computer or friend.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nitesh.chavan23@pccoepune.org</p>
+                    <p><i class="fa-solid fa-phone"></i>9096320162</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/chavannitesh96/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/NiteshC76241035"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/nitesh-chavan-27188b2a5/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
